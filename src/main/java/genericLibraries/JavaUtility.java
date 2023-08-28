@@ -10,6 +10,8 @@ import java.util.Random;
 
 
 //This method is used to develop concepts
+
+//this method is utilize with java
 public class JavaUtility {
 
 	
