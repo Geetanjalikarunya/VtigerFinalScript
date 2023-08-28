@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Random;
 
-
+//this is javautility
 //This method is used to develop concepts
 public class JavaUtility {
 
