@@ -9,7 +9,7 @@ import java.util.Locale;
 import java.util.Random;
 
 
-//This method is used to generate java concepts
+//This method is used to develop concepts
 public class JavaUtility {
 
 	
