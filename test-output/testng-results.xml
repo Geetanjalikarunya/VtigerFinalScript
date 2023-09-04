@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-08T09:09:08 IST" name="Default suite" finished-at="2023-08-08T09:09:44 IST" duration-ms="35965">
+  <suite started-at="2023-08-29T11:03:04 IST" name="Default suite" finished-at="2023-08-29T11:03:24 IST" duration-ms="20255">
     <groups>
     </groups>
-    <test started-at="2023-08-08T09:09:08 IST" name="Default test" finished-at="2023-08-08T09:09:44 IST" duration-ms="35965">
-      <class name="dataProviders.ActiTimeLogintest">
-        <test-method signature="actitimeLogin(java.lang.String,java.lang.String)[pri:0, instance:dataProviders.ActiTimeLogintest@36ebc363]" started-at="2023-08-08T09:09:08 IST" name="actitimeLogin" data-provider="loginData" finished-at="2023-08-08T09:09:26 IST" duration-ms="17943" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[manager]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-08-29T11:03:04 IST" name="Default test" finished-at="2023-08-29T11:03:24 IST" duration-ms="20255">
+      <class name="VtigerFinalTestScript.CreateOrganizationTest">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:VtigerFinalTestScript.CreateOrganizationTest@f5958c9]" started-at="2023-08-29T11:03:04 IST" name="classSetup" finished-at="2023-08-29T11:03:06 IST" duration-ms="2215" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- actitimeLogin -->
-        <test-method signature="actitimeLogin(java.lang.String,java.lang.String)[pri:0, instance:dataProviders.ActiTimeLogintest@36ebc363]" started-at="2023-08-08T09:09:26 IST" name="actitimeLogin" data-provider="loginData" finished-at="2023-08-08T09:09:44 IST" duration-ms="17949" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[trainee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[trainee]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- classSetup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:VtigerFinalTestScript.CreateOrganizationTest@f5958c9]" started-at="2023-08-29T11:03:06 IST" name="methodSetup" finished-at="2023-08-29T11:03:11 IST" duration-ms="4681" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- actitimeLogin -->
-      </class> <!-- dataProviders.ActiTimeLogintest -->
+        </test-method> <!-- methodSetup -->
+        <test-method signature="createOrgTest()[pri:0, instance:VtigerFinalTestScript.CreateOrganizationTest@f5958c9]" started-at="2023-08-29T11:03:11 IST" name="createOrgTest" finished-at="2023-08-29T11:03:22 IST" duration-ms="11212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:VtigerFinalTestScript.CreateOrganizationTest@f5958c9]" started-at="2023-08-29T11:03:22 IST" name="methodTearDown" finished-at="2023-08-29T11:03:24 IST" duration-ms="1899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:VtigerFinalTestScript.CreateOrganizationTest@f5958c9]" started-at="2023-08-29T11:03:24 IST" name="classTearDown" finished-at="2023-08-29T11:03:24 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- VtigerFinalTestScript.CreateOrganizationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
